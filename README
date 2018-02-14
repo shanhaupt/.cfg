@@ -1,0 +1,13 @@
+When setting up .cfg files on new computer for version tracking across computers, follow the steps outlined below:
+
+git init --bare $HOME/.cfg
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+config config --local status.showUntrackedFiles no
+echo "alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'" >> $HOME/.bashrc
+
+##STILL NEED TO FIGURE OUT WHY .bashrc WILL NOT SOURCE INSIDE .cfg FOLDER##
+for now -> follow steps to add configuration files for vim for now!!
+
+use command  ln -s source_file myfile where source_file is ~/.cfg/.vimrc and myfile is created in home as .vimrc to create a symlink for the vimrc
+
+##STILL NEEDS WORK!!!##
