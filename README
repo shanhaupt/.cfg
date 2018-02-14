@@ -1,3 +1,5 @@
+
+---DEPRECIATED---
 When setting up .cfg files on new computer for version tracking across computers, follow the steps outlined below:
 
 git init --bare $HOME/.cfg
