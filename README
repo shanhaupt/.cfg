@@ -10,4 +10,14 @@ for now -> follow steps to add configuration files for vim for now!!
 
 use command  ln -s source_file myfile where source_file is ~/.cfg/.vimrc and myfile is created in home as .vimrc to create a symlink for the vimrc
 
+change .bashrc bash_aliases sourceing line to:
+(allows bash to find aliases!)
+
+if [ -f ~/.cfg/.bash_aliases ]; then                                        
+     . ~/.cfg/.bash_aliases
+fi
+
+
+
+
 ##STILL NEEDS WORK!!!##
