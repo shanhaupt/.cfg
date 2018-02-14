@@ -14,5 +14,5 @@ git add .vimrc
 git add addDotfiles.sh
 git add getDotfiles.sh
 
-git commit -m 'Pushed .bashrc .bash_aliases .vimrc'
+git commit -m 'Pushed .bashrc .bash_aliases .vimrc addDotfiles.sh getDotfiles.sh'
 git push
