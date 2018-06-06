@@ -1,3 +1,4 @@
+#!/bin/bash
 sudo rm -f .bashrc
 sudo cp ../.bashrc .bashrc
 
