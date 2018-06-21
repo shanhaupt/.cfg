@@ -9,12 +9,16 @@ sudo cp ../.bash_aliases .bash_aliases
 sudo rm -f .vimrc
 sudo cp ../.vimrc .vimrc
 
+sudo rm -f .gitconfig
+sudp cp ../.gitconfig .gitconfig
+
 git add .bashrc
 git add .bash_aliases
 git add .vimrc
+git add .gitconfig
 git add addDotfiles.sh
 git add getDotfiles.sh
 git add README
 
-git commit -m 'Pushed .bashrc .bash_aliases .vimrc addDotfiles.sh getDotfiles.sh'
+git commit -m 'Pushed .bashrc .bash_aliases .vimrc .gitconfig addDotfiles.sh getDotfiles.sh'
 git push
