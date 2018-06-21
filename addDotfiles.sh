@@ -10,7 +10,7 @@ sudo rm -f .vimrc
 sudo cp ../.vimrc .vimrc
 
 sudo rm -f .gitconfig
-sudp cp ../.gitconfig .gitconfig
+sudo cp ../.gitconfig .gitconfig
 
 git add .bashrc
 git add .bash_aliases
