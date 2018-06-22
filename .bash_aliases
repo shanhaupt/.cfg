@@ -13,3 +13,5 @@ alias launchEclipse='sudo ~/bin/runEclipse.sh'
 alias addDotfiles='cd ~/.cfg && bash addDotfiles.sh'
 
 alias getDotfiles='cd ~/.cfg && bash getDotfiles.sh'
+
+alias addBinFiles='~/bin/addBinFiles'
