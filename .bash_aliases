@@ -14,4 +14,6 @@ alias addDotfiles='cd ~/.cfg && bash addDotfiles.sh'
 
 alias getDotfiles='cd ~/.cfg && bash getDotfiles.sh'
 
+alias addBashScripts='cd ~/.cfg && bash addBashScripts.sh'
+
 alias addBinFiles='~/bin/addBinFiles'
