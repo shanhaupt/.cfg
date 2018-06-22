@@ -15,13 +15,11 @@ sudo cp ~/.vimrc $CFGPATH/.vimrc
 sudo rm -f $CFGPATH/.gitconfig
 sudo cp ~/.gitconfig $CFGPATH/.gitconfig
 
-git add .bashrc
-git add .bash_aliases
-git add .vimrc
-git add .gitconfig
-git add addDotfiles.sh
-git add getDotfiles.sh
-git add README
+git add $CFGPATH/.bashrc
+git add $CFGPATH/.bash_aliases
+git add $CFGPATH/.vimrc
+git add $CFGPATH/.gitconfig
+git add $CFGPATH/README
 
 git commit -m 'Pushed .bashrc .bash_aliases .vimrc .gitconfig addDotfiles.sh getDotfiles.sh'
 git push
