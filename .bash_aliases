@@ -8,6 +8,8 @@ alias itp325='cd ~/Documents/School/USC/coursework/seniorYear/semester1/itp325'
 
 alias cs003c='cd ~/Documents/School/PCC/coursework/cs003c/'
 
+alias launchEclipse='sudo ~/bin/runEclipse.sh'
+
 alias addDotfiles='cd ~/.cfg && bash addDotfiles.sh'
 
 alias getDotfiles='cd ~/.cfg && bash getDotfiles.sh'
