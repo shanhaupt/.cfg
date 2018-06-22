@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo git pull
+git pull
 
 rm -rf ~/bin/
-cp -r ./bin ~/bin
+cp -r ~/.cfg/bin ~/bin
