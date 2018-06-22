@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo rm -rf ./bin
+sudo rm -rf ~/.cfg/bin
 sudo cp -r  ~/bin/ ~/.cfg/bin
 
 git add bin
