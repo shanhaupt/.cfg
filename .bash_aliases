@@ -10,6 +10,8 @@ alias cs003c='cd ~/Documents/School/PCC/coursework/cs003c/'
 
 alias launchEclipse='sudo ~/bin/runEclipse.sh'
 
+alias launchDataGrip='sudo ~/bin/runDataGrip.sh'
+
 alias addDotfiles='cd ~/.cfg && bash addDotfiles.sh'
 
 alias getDotfiles='cd ~/.cfg && bash getDotfiles.sh'
