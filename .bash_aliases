@@ -21,3 +21,10 @@ alias addBashScripts='cd ~/.cfg && bash addBashScripts.sh'
 alias getBashScripts='cd ~/.cfg && bash getBashScripts.sh'
 
 alias 356Calculator='cd ~/Documents/projects/356Calculator'
+
+alias sshDesktop='ssh -i /media/shanhaupt/ssh/ssh_desktop shanhaupt@104.179.122.75'
+
+alias itp357='cd /home/shanhaupt/Documents/School/USC/coursework/seniorYear/semester2/itp357'
+
+alias cs430='cd /home/shanhaupt/Documents/School/USC/coursework/seniorYear/semester2/csci430'
+
