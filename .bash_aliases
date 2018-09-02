@@ -28,3 +28,4 @@ alias itp357='cd /home/shanhaupt/Documents/School/USC/coursework/seniorYear/seme
 
 alias cs430='cd /home/shanhaupt/Documents/School/USC/coursework/seniorYear/semester2/csci430'
 
+alias deterlab-users='ssh usc430al@users.deterlab.net'
