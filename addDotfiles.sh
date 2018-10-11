@@ -5,9 +5,11 @@ sudo cp ../.bashrc .bashrc
 sudo rm -f .bash_aliases
 sudo cp ../.bash_aliases .bash_aliases
 
-
 sudo rm -f .vimrc
 sudo cp ../.vimrc .vimrc
+
+sudo rm -f .tmux.conf
+sudo cp ../.tmux.conf .tmux.conf
 
 sudo rm -f .gitconfig
 sudo cp ../.gitconfig .gitconfig
@@ -20,5 +22,5 @@ git add addDotfiles.sh
 git add getDotfiles.sh
 git add README
 
-git commit -m 'Pushed .bashrc .bash_aliases .vimrc .gitconfig addDotfiles.sh getDotfiles.sh'
+git commit -m 'Pushed .bashrc .bash_aliases .vimrc .tmux.conf .gitconfig addDotfiles.sh getDotfiles.sh'
 git push
