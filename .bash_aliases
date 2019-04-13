@@ -1,3 +1,11 @@
+alias sshrl3='ssh rl@rl3.ridelinks.com'
+alias sshrl7='ssh rl@rl7.ridelinks.com'
+alias sshrl8='ssh rl@rl8.ridelinks.com'
+alias sshrl9='ssh rl@rl9.ridelinks.com'
+alias sshrl10='ssh rl@rl10.ridelinks.com'
+alias sshrl11='ssh rl@rl11.ridelinks.com'
+alias sshrl12='ssh rl@rl12.ridelinks.com'
+
 alias cs356='cd ~/Documents/School/USC/coursework/seniorYear/semester1/csci356/hw_shaupt'
 
 alias cs310='cd ~/Documents/School/USC/coursework/seniorYear/semester1/csci310'
