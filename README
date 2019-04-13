@@ -4,3 +4,5 @@ bash addDotfiles.sh will push .bashrc .bash_aliases and .vimrc from ~/ folder to
 
 bash getDotfiles.sh will pull from the github repository and replace .bashrc .bash_aliases and .vimrc in the ~/ directory with the files from the github repository
 
+NOTE for wsl users (i.e. windows subsystem for linux): In order for the powerline fonts to work in WSL for both the vim-powerline and tmux-powerline modules, powerline fonts must be installed on the window system before they will work in WSL.  Instructions on how to do so can be found here - https://medium.com/@slmeng/how-to-install-powerline-fonts-in-windows-b2eedecace58
+
