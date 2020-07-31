@@ -1,4 +1,4 @@
-sudo apt-get install python-pip git
+sudo apt-get install python3-pip git
 pip install --user git+git://github.com/Lokaltog/powerline
 
 #Note if this does not work then do the following:
